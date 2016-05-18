@@ -9,7 +9,6 @@
     <link rel="icon" href="../../favicon.ico">
     <title>Laravel 5</title>
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/bootstrap/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
     <link href="/bootstrap/css/starter-template.css" rel="stylesheet">
     <script src="/bootstrap/js/ie-emulation-modes-warning.js"></script>
  </head>
@@ -37,21 +36,15 @@
     </nav>
 
     <div class="container">
-
-      <div class="starter-template">
-        <div class="jumbotron">
             @yield('content')
-        </div>
-      </div>
     </div><!-- /.container -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="/bootstrap/js/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="/bootstrap/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="/bootstrap/js/jquery-2.2.3.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/bootstrap/js/vendor/jquery-2.2.3.min.js"><\/script>')</script>
     <script src="/bootstrap/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="/bootstrap/js/ie10-viewport-bug-workaround.js"></script>
-  </body>
+</body>
 </html>
